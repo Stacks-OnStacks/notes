@@ -1,130 +1,136 @@
 # SDLC & Agile
 
-## SDLC
+## SDLC (Software Development Life Cyclce)
 
-SDLC stands for Software Development Lifecycle, a methodology with clearly defined processes.
-
--   Primary goal: create high-quality software and lowest cost in the shortest possible time
--   Provides a well structured flow of phases that helps and organization quickly produce a goal
--   Makes sure it's well tested and ready for production
--   6 Phases of SDLC:
+-   Refers to a methodology with clearly defined processes
+-   Primary goal is to create high-quality software and lowest cost in the shortest possible time
+-   Provides a wel l-structured flow of phases the hlep an organization to quickly produce a goal
+-   Along with making sure it's well testedd and ready for production
+-   Focuses on the following phases of software development
     -   Requirement Analysis
     -   Planning
-    -   Software Design, Architecture (skeleton code)
+    -   Software Design such as architectural design (skeletons)
     -   Software Development
     -   Testing
     -   Deployment
 
-![](https://miro.medium.com/max/1400/0*qZ1JOnVpPokvnr69.jpg)
+### How it works
 
-## Waterfall
+-   Lowering the cost of software development while simultaneiously improving quality and shorting production time
+-   Achevies this by following a plan the removes the typical pitsfalls of software development and project
+    -   Two general scenarios
+        -   **Building a completely new system/appplication/API**
+        -   **Working on an existing system**
+    -   Ask for end-user or client feedback
 
--   Old school approach, still in practice
--   **NOT** inherently bad
--   Far more restrict procedure
--   Idea, is you're following a plan _EXACTLY_ to the T based on documentation
--   Example:
-    -   Making a Helicopter or a Plane, you need make that when you're building you don't replace any component with something that "might" do the job. Computer when you steering you don't want to bank left when you're trying to go right
+![Visualization of SDLC](https://bigwater.consulting/wp-content/uploads/2019/04/SDLC_BWC.png)
 
-## Agile
+### Waterfall
+
+-   Old school approach
+-   Not inherently bad
+-   Far more restrictice and based procedure
+
+### Agile
 
 -   Mindset/Philosophy
 -   There are NO specific rules
--   Core beliefs that you should adapt
-    -   being _agile_ in your approach to problems
+-   Core belive is that you should be adaptable
+    -   being _agile_ in your approach to probelms
     -   being quick to come up with solutions
--   Four main tenets about agile
-    -   **Adapt** to change OVER following a plan
-    -   **Customer Collaboration** OVER contracts
-    -   **Communication** OVER Procedure
-    -   **Demo** OVER Documentation
+-   **4 main Tenets about Agile**
+    -   **Adapt to change OVER following a plan**
+    -   **Customer Collaboration OVER contracts**
+    -   **Communication OVER Procedure**
+    -   **Demos OVER Documentation**
 
-![](https://www.devteam.space/wp-content/uploads/2018/12/Waterfall-vs-Agile.png)
+![Waterfall vs Agile](https://www.devteam.space/wp-content/uploads/2018/12/Waterfall-vs-Agile.png)
 
-## Agile-Scrum
+#### Agile-Scrum
 
 -   Implementation of the Agile Philosophy
--   Based on iterative sprints
-    -   Typically between 2-4 weeks
--   Key Roles:
-    -   **Product Owner**
-        -   Person Ultimately incharege of the success of a project
-    -   **Scrum Master**
-        -   Leads a scrum team (King of the Scrumlings) and their job is to acheive peak efficieny
-    -   **Scrumlings (Team Memebers)**
-        -   these are all the developers in the scrum working on the project
--   **KEY CEREMONIES**
-    -   **Storyboarding/Sprint Planning**
+-   Based on interative _sprints_
+    -   typically 2weeks - month
+-   Key Roles
+-   **Products owner**
+    -   Person Ultimately incharge of the success of a project
+-   **Scrum Master**
+    -   Leads the scrum team (King of the Scrumlings) and their job is to achieve peak efficiency
+-   **Team Memebers (scrumlings)**
+    -   these are the developers in a scrum team working on the project
+-   Key Ceremonies
+    -   **Storyboard grooming/Sprint Planning**
+        -   Creating user stores and assigning them
     -   **Daily Standup**
+        -   Daily meeting to disccus what you're working on
     -   **Sprint Review**
+        -   Gather all your demos and all artifacts together
     -   **Sprint Retrospective**
-    -   **Backlog Refine**
+        -   Go over how the sprint went
+        -   Lessons learned
+        -   What to do the next sprint
+    -   _Backlog Refinement_
+        -   fixing issues
+        -   make any suggested changes
 
-![](https://hygger.io/wp-content/uploads/2020/06/6OGs89KwMRngvmEuNhWbcbHOroAUcavB9I45fHZq.png)
+![SprintTimeline](https://user-images.githubusercontent.com/34101326/181030301-69636f27-8361-42e5-acf2-2e0281ac9430.png)
 
-# User Story
+## User Story
 
--   in most agile approaches you approach them by building software form the prospective of the user
--   Planning a feature
-    -   **AS A** employee **I WANT TO** view pending order **SO THAT** I can start making the order.
+-   In most agile approaches (scrum) you approach building software from the perspective of User Stories
+-   Planning a feature from the perspective of the end user
+    -   **AS A** employee **I WANT TO** view pending order **SO THAT** I can follow up with the client
     -   **Feature Sprawl**
-        -   writing some feature or implementation that no one really requested
-        -   IF you're done with your feature ASK OTHERS if they need anything or look at the backlog
--   **MVP**
-    -   MINIMUM VIABLE PRODUCT
-    -   Make sure your user stories that were asked for are hit first
-    -   After this is achevied you can head into the depths of google for some crazy ideas
+        -   writing code for a feature that no one really requested
+    -   Generally a combintaong of a :
+        -   Type of user
+        -   What the user wants to do
+        -   Why they want tot od it
+
+| As a     | I want to           | So that                                           |
+| -------- | ------------------- | ------------------------------------------------- |
+| Employee | View pending orders | I can start on th order as soon as they come in   |
+| Customer | Save my order       | I can quickly re-order my favorites in the future |
+
 -   **Pointing**
-    -   Assigning a difficulty level to the task of a user story
-    -   Commonly: 1, 2, 3, 4, 5
-    -   If too large a number for difficulty you might want to consider breaking it apart
-    -   Alternatives:
-        -   xs, s, m, l, xl, xxl
-        -   1, 2, 3, 5, 8, 13 (Fibbonacci)
+    -   Assigned a difficulty level to the task/completion of a user story
+    -   Commonly: 1,2,3,4,5
+    -   Alternative difficulty metrics
+        -   xs,s,m,l,xl
+        -   1,2,3,5,8,13
+    -   If you have an user story that is above 5, xl, 13, it can probably be broken down
 
 ## Agile-Kanban
 
--   popular framework used to implemenet agile
--   requires real-time communication of capacity and full transparency of work
--   Gives the team:
-    -   More flexibility to plan out options
-    -   Faster output
-    -   Clearer focus
--   All you need for this implementation is "cards"
+-   popular framework used to implement agile and devops
+-   requires real-time communication of capactiy and full transparency of work
+-   Gives teams:
+    -   more flexible planning option
+    -   faster output
+    -   clearer focus
+-   All you need for the implementation of this is a board of cards
+-   Kanban is translanted from Japanese into "visual signal"
 
-## Kanban Board
+## Kanban Boards
 
--   Everything revolves aroundt his board.
--   Helps visualize work and optimization flow amungst team members
--   Plethora of virtual boards to allow for agile-kanban - Traceability - Ease of collaboration - Accessibility from multiple locations - Full transparency of your work and real-time communication
-    ![](https://talentvis.com/files/images/blog/2022/05/what-you-need-to-know-about-kanban-board.jpg)
+-   All kanban teams revolve around this board
+-   Helps visualize work and optimization flow amungst the team
+-   Virtual boards are crucial feature in any agile software development
+    -   traceability
+    -   easier to collaborate
+    -   accessiblity from mutliple locations
+-   **Full transparency** of your owrk and **real-time communication**
 
-# Daily Standups!
-
--   I finished: X, Y, Z
--   I plan to work on : A, B, C
--   I have a roadblock: 1, 2, 3, 4
-
--   For example:
-
-Charles Jester
-
--   I finished: with the agile-sdlc demo
--   I plan to work on: more terminal and java commands
--   I have a roadblock: nothing, so far smooth sailing
-
-Khalis Bell
-
--   I finished: building a skeleton
--   I plan to work on: Implementation of DevOps
--   I has a roadblock: I have no idea what DevOps even is (this is where your team members step in - offering assistance or resources)
+![Generic Example of Kanban Board](https://wac-cdn.atlassian.com/dam/jcr:8d815cd2-6cc0-46a5-976c-5ac6205fbaca/Elements_of_a_kanban_board.png?cdnVersion=162)
 
 # Additional Resources
 
-# Conceptual
+## Conceptual
 
--   [Agile Atlassian](https://www.atlassian.com/agile)
+-   [Great Resource for Agile Methodologies](https://www.atlassian.com/agile/manifesto)
 
-# Kanban VBoards
+## Virtual Boards
 
--[Jira - Not free for more than 10, but super cool](https://www.atlassian.com/software/jira/features/scrum-boards) -[Trello - Great for large teams](https://trello.com/charlesjester1/boards)
+-   [Trello - Great Free Board for Larger Teams](https://trello.com/en-US)
+
+-   [Jira - Fantastic Option for Smaller Teams fro Atlassian](https://www.atlassian.com/software/jira/free)
