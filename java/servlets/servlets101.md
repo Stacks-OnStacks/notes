@@ -352,7 +352,7 @@ JavaScript Object Notation
 
     -   **Life Cycle of a Servlet:**
 
-    ![LifeCycle](https://media.geeksforgeeks.org/wp-cont t/uploads/Life-Cycle-Methods-of-a-Servlet.jpg)
+    ![LifeCycle](https://media.geeksforgeeks.org/wp-content/uploads/Life-Cycle-Methods-of-a-Servlet.jpg)
 
 ## Servlet API
 
