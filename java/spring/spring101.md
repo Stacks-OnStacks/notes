@@ -60,7 +60,6 @@ Objects "depend" on other objects.
 2. Must have setters for all fields that you want to use. 
 3. Don't need to configure all fields (program will still compile). 
 
-Check out this [demo](https://github.com/220124-JavaReactAzure/demos/tree/main/spring-demo) for some practical experience. 
 
 # Spring Framework
 
