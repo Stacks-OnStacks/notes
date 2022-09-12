@@ -1,4 +1,4 @@
-# DevOps (NOT AZURE SPECIFIC)
+# DevOps
 
 -   Portmanteau of **Dev**elopment and **Op**eration**s**
 -   most modern way of approacvhing applications and software
