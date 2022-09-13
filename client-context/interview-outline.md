@@ -43,6 +43,8 @@
         -   Focus: Selection & Insertion Sort
     -   [Searching Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
         -   Focus: Linear & Binary Search
+-   Know Time Complexities
+    -   [Big 0 Cheat Sheet](https://www.bigocheatsheet.com/)
 -   Java Fundamentals
     -   What is a String?
     -   Differentiate == and .equals
