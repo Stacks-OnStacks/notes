@@ -103,3 +103,4 @@ Grounded in the principles of venture capital and Lean Startup methodology, [D10
 -   [Anchor Client Interview Questions](https://quizlet.com/715020477/anchor-client-interview-style-questions-flash-cards/)
 -   [Top 50 Java Coding Evaluations](https://javarevisited.blogspot.com/2017/07/top-50-java-programs-from-coding-Interviews.html)
 -   [STAR Method](https://www.indeed.com/career-advice/interviewing/how-to-use-the-star-interview-response-technique)
+-   [Go Play with their API a bit](https://sandbox.developerhub.citi.com/us/home)
