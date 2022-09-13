@@ -3,7 +3,7 @@
 ## Interview Format
 
 -   Some variation, dependent on the Interviewer.
--   Rounds: 2, 45 min
+-   Rounds: 2, 45-60 min
     -   Subjective, previous associate had a single 1-hr long interview
     -   **Suggestion:** Prep for the 2 as it's worst-case scenario
 
